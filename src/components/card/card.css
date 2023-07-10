@@ -1,0 +1,76 @@
+.card {
+	border-radius: 1rem;
+	padding: .5rem 2.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 1rem;
+	background: linear-gradient(
+			90deg,
+			rgba(45, 12, 98, 1) 0%,
+			rgba(45, 12, 98, 1) 20%,
+			rgba(231, 231, 231, 0) 100%
+		),
+		var(--bg);
+	background-size: cover;
+     background-color: rgba(0, 0, 0, 0.623);
+     background-blend-mode: darken;
+     width: 20vw;
+     height: 30vh;
+
+}
+
+.card_subtitle{
+     color: rgb(255, 255, 255);
+     font-size: 1rem;
+     letter-spacing: .1rem;
+     font-weight: 500;
+   }
+   .card_title{
+     color: whitesmoke;
+     font-size: 1.5rem;
+     font-weight: bold;
+   }
+   .card_about{
+     max-width: 90%;
+     color: rgb(245, 245, 245);
+     font-size: 1rem;
+     letter-spacing: .1rem;
+     line-height: 1.7;
+     font-weight: 500;
+   }
+   .card_actions{
+     display: flex;
+     gap: 1rem;
+   }
+   .card_action{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: .5rem;
+   }
+   .card_btn{
+     font-size: .9rem;
+     font-weight: bold;
+     color: rgb(255, 186, 82);
+   
+     padding: 1rem 1.2rem;
+     border: 1px solid rgb(255, 186, 82);
+     border-radius: 2px;
+   
+     background-color: transparent;
+     transition: all .2s ease;
+     cursor: pointer;
+   }
+   .card_btn:hover{
+     color: rgba(45,12,98,1);
+     background-color: rgb(255, 186, 82);
+   }
+   .card_tooltip{
+     color: rgb(255, 186, 82);
+     font-size: .9rem;
+     letter-spacing: .1rem;
+     font-weight: 400;
+     text-transform: capitalize;
+   }

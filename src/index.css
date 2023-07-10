@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/evermore');
+
+.myFont {
+  font-family: 'Evermore', sans-serif;
+}

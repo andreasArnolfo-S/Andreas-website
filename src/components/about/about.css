@@ -1,0 +1,56 @@
+.about {
+	display: flex;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.about_text {
+	width: 50vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+     border-right: 12px solid #191d24;
+}
+
+.about_text h2 {
+	font-size: 3vw;
+	font-weight: 700;
+	margin-bottom: 1vw;
+}
+
+.about_text p {
+	font-size: 1vw;
+	font-weight: 400;
+	margin-bottom: 1vw;
+	text-align: justify;
+	padding: 0 5vw;
+	margin-top: 4vh;
+}
+
+.about_img {
+	width: 50vw;
+	background-image: url('https://cdn.discordapp.com/attachments/978413517780697141/1078783787716059226/WAVL5621.JPG');
+	background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+	.about {
+		flex-direction: column;
+	}
+	.about_text {
+		width: 100vw;
+		border-right: none;
+	}
+	.about_img {
+		width: 100vw;
+		height: 50vh;
+	}
+	.about_text h2 {
+		font-size: 5vw;
+	}
+	.about_text p {
+		font-size: 2vw;
+	}
+}
